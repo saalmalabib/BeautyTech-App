@@ -11,7 +11,7 @@ A professional full-stack web application inspired by digital innovation in the 
 ## 🛠️ Tech Stack
 - **Backend:** Java 17, Spring Boot, Spring Data JPA
 - **Database:** H2 (In-memory database for rapid development)
-- **Frontend:** JavaScript, CSS3 (Luxury Gold Theme), HTML5
+- **Frontend:** JavaScript, CSS3, HTML5
 - **Architecture:** Three-tier architecture (Controller, Service, Repository)
 
 ## 📁 Project Structure
