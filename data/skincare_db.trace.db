@@ -1,0 +1,108 @@
+2026-05-04 19:10:07.266009+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO PRODUCT (brand, name, description, target_skin_type, category, image_url) VALUES[*]"; expected "ROW (, (, DEFAULT, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"; SQL statement:
+INSERT INTO PRODUCT (brand, name, description, target_skin_type, category, image_url) VALUES [42001-240]
+2026-05-04 19:10:07.270068+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]'L''Oréal Paris', 'Revitalift Serum', 'Pure Hyaluronic Acid for intense hydration.', 'Oily', 'Serum', 'https://static.beautytocare.com/media/catalog/product/l/-/l-oreal-paris-revitalift-filler-hyaluronic-eye-serum-30ml.jpg'),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+('L''Oréal Paris', 'Revitalift Serum', 'Pure Hyaluronic Acid for intense hydration.', 'Oily', 'Serum', 'https://static.beautytocare.com/media/catalog/product/l/-/l-oreal-paris-revitalift-filler-hyaluronic-eye-serum-30ml.jpg'), [42001-240]
+2026-05-04 19:10:07.270068+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]'La Roche-Posay', 'Effaclar Mat', 'Moisturizer that targets oil and reduces pores.', 'Oily', 'Moisturizer', 'https://www.basharacare.com/media/catalog/product/cache/3cc098e4b27cb217d827d288e7852250/b/c/bc-lrp-effacalar-mat-tube.jpg'),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+('La Roche-Posay', 'Effaclar Mat', 'Moisturizer that targets oil and reduces pores.', 'Oily', 'Moisturizer', 'https://www.basharacare.com/media/catalog/product/cache/3cc098e4b27cb217d827d288e7852250/b/c/bc-lrp-effacalar-mat-tube.jpg'), [42001-240]
+2026-05-04 19:10:07.270068+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]'CeraVe', 'Foaming Cleanser', 'Gently removes excess oil.', 'Oily', 'Cleanser', 'https://i5.walmartimages.com/seo/CeraVe-Foaming-Facial-Cleanser-Daily-Face-Wash-for-Normal-to-Oily-Skin-12-fl-oz_a74a3654-07aa-47c6-9377-117b3a532e6e.fc02eb8e8fc31ee17f086caa896a8d87.jpeg')"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+('CeraVe', 'Foaming Cleanser', 'Gently removes excess oil.', 'Oily', 'Cleanser', 'https://i5.walmartimages.com/seo/CeraVe-Foaming-Facial-Cleanser-Daily-Face-Wash-for-Normal-to-Oily-Skin-12-fl-oz_a74a3654-07aa-47c6-9377-117b3a532e6e.fc02eb8e8fc31ee17f086caa896a8d87.jpeg') [42001-240]
+2026-05-04 19:10:07.270068+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO PRODUCT (brand, name, description, target_skin_type, category, image_url) VALUES[*]"; expected "ROW (, (, DEFAULT, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"; SQL statement:
+INSERT INTO PRODUCT (brand, name, description, target_skin_type, category, image_url) VALUES [42001-240]
+2026-05-04 19:10:07.270068+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]'Kiehl''s', 'Ultra Facial Cream', '24-hour hydration with squalane.', 'Dry', 'Moisturizer', 'https://www.ubuy.com.eg/productimg/?image=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvMzEybU5ZQjFzd0wuX1NTNDAwXy5qcGc.jpg')"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+('Kiehl''s', 'Ultra Facial Cream', '24-hour hydration with squalane.', 'Dry', 'Moisturizer', 'https://www.ubuy.com.eg/productimg/?image=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvMzEybU5ZQjFzd0wuX1NTNDAwXy5qcGc.jpg') [42001-240]
+2026-05-04 19:10:07.270068+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO PRODUCT (brand, name, description, target_skin_type, category, image_url) VALUES[*]"; expected "ROW (, (, DEFAULT, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"; SQL statement:
+INSERT INTO PRODUCT (brand, name, description, target_skin_type, category, image_url) VALUES [42001-240]
+2026-05-04 19:10:07.281449+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]'Avène', 'Thermal Water', 'Soothes and calms skin irritation.', 'Sensitive', 'Mist', 'https://m.media-amazon.com/images/I/61OVqzlRCFL.jpg'),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+('Avène', 'Thermal Water', 'Soothes and calms skin irritation.', 'Sensitive', 'Mist', 'https://m.media-amazon.com/images/I/61OVqzlRCFL.jpg'), [42001-240]
+2026-05-04 19:10:07.282448+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]'Bioderma', 'Sensibio H2O', 'Gentle micellar water cleansing.', 'Sensitive', 'Cleanser', 'https://m.media-amazon.com/images/I/51TLsfJf3rL.jpg')"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+('Bioderma', 'Sensibio H2O', 'Gentle micellar water cleansing.', 'Sensitive', 'Cleanser', 'https://m.media-amazon.com/images/I/51TLsfJf3rL.jpg') [42001-240]
+2026-05-04 19:10:07.284444+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO PRODUCT (brand, name, description, target_skin_type, category, image_url) VALUES[*]"; expected "ROW (, (, DEFAULT, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"; SQL statement:
+INSERT INTO PRODUCT (brand, name, description, target_skin_type, category, image_url) VALUES [42001-240]
+2026-05-04 19:10:07.286443+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]'The Ordinary', 'Niacinamide 10%', 'Balances sebum for clearer skin.', 'Combination', 'Serum', 'https://f.nooncdn.com/p/fb889ec50f784103a85817c4c97eadd1%7Cpzsku/Z98B89E90ACD02256C23AZ/45/1771237421/787b07ba-d575-4e2b-8041-08825577b4bc.jpg?width=original'),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+('The Ordinary', 'Niacinamide 10%', 'Balances sebum for clearer skin.', 'Combination', 'Serum', 'https://f.nooncdn.com/p/fb889ec50f784103a85817c4c97eadd1%7Cpzsku/Z98B89E90ACD02256C23AZ/45/1771237421/787b07ba-d575-4e2b-8041-08825577b4bc.jpg?width=original'), [42001-240]
+2026-05-04 19:10:07.286495+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]'Clinique', 'Moisture Surge', 'Auto-replenishing hydrator.', 'Combination', 'Moisturizer', 'https://gomyz.com/media/catalog/product/cache/ed71e6947664464904fc81a10ba92dd4/c/l/clinique_moisture_surge_72-hour_auto-replenishing_hydrator_50_ml_20714898144_1.png.mst.webp')"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+('Clinique', 'Moisture Surge', 'Auto-replenishing hydrator.', 'Combination', 'Moisturizer', 'https://gomyz.com/media/catalog/product/cache/ed71e6947664464904fc81a10ba92dd4/c/l/clinique_moisture_surge_72-hour_auto-replenishing_hydrator_50_ml_20714898144_1.png.mst.webp') [42001-240]
+2026-05-04 19:11:24.250446+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO PRODUCT (brand, name, description, target_skin_type, category, image_url) VALUES[*]"; expected "ROW (, (, DEFAULT, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"; SQL statement:
+INSERT INTO PRODUCT (brand, name, description, target_skin_type, category, image_url) VALUES [42001-240]
+2026-05-04 19:11:24.258430+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]'L''Oréal Paris', 'Revitalift Serum', 'Pure Hyaluronic Acid for intense hydration.', 'Oily', 'Serum', 'https://static.beautytocare.com/media/catalog/product/l/-/l-oreal-paris-revitalift-filler-hyaluronic-eye-serum-30ml.jpg'),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+('L''Oréal Paris', 'Revitalift Serum', 'Pure Hyaluronic Acid for intense hydration.', 'Oily', 'Serum', 'https://static.beautytocare.com/media/catalog/product/l/-/l-oreal-paris-revitalift-filler-hyaluronic-eye-serum-30ml.jpg'), [42001-240]
+2026-05-04 19:11:24.260425+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]'La Roche-Posay', 'Effaclar Mat', 'Moisturizer that targets oil and reduces pores.', 'Oily', 'Moisturizer', 'https://www.basharacare.com/media/catalog/product/cache/3cc098e4b27cb217d827d288e7852250/b/c/bc-lrp-effacalar-mat-tube.jpg'),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+('La Roche-Posay', 'Effaclar Mat', 'Moisturizer that targets oil and reduces pores.', 'Oily', 'Moisturizer', 'https://www.basharacare.com/media/catalog/product/cache/3cc098e4b27cb217d827d288e7852250/b/c/bc-lrp-effacalar-mat-tube.jpg'), [42001-240]
+2026-05-04 19:11:24.262429+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]'CeraVe', 'Foaming Cleanser', 'Gently removes excess oil.', 'Oily', 'Cleanser', 'https://i5.walmartimages.com/seo/CeraVe-Foaming-Facial-Cleanser-Daily-Face-Wash-for-Normal-to-Oily-Skin-12-fl-oz_a74a3654-07aa-47c6-9377-117b3a532e6e.fc02eb8e8fc31ee17f086caa896a8d87.jpeg')"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+('CeraVe', 'Foaming Cleanser', 'Gently removes excess oil.', 'Oily', 'Cleanser', 'https://i5.walmartimages.com/seo/CeraVe-Foaming-Facial-Cleanser-Daily-Face-Wash-for-Normal-to-Oily-Skin-12-fl-oz_a74a3654-07aa-47c6-9377-117b3a532e6e.fc02eb8e8fc31ee17f086caa896a8d87.jpeg') [42001-240]
+2026-05-04 19:11:24.263429+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO PRODUCT (brand, name, description, target_skin_type, category, image_url) VALUES[*]"; expected "ROW (, (, DEFAULT, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"; SQL statement:
+INSERT INTO PRODUCT (brand, name, description, target_skin_type, category, image_url) VALUES [42001-240]
+2026-05-04 19:11:24.265438+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]'Kiehl''s', 'Ultra Facial Cream', '24-hour hydration with squalane.', 'Dry', 'Moisturizer', 'https://www.ubuy.com.eg/productimg/?image=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvMzEybU5ZQjFzd0wuX1NTNDAwXy5qcGc.jpg')"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+('Kiehl''s', 'Ultra Facial Cream', '24-hour hydration with squalane.', 'Dry', 'Moisturizer', 'https://www.ubuy.com.eg/productimg/?image=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvMzEybU5ZQjFzd0wuX1NTNDAwXy5qcGc.jpg') [42001-240]
+2026-05-04 19:11:24.266425+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO PRODUCT (brand, name, description, target_skin_type, category, image_url) VALUES[*]"; expected "ROW (, (, DEFAULT, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"; SQL statement:
+INSERT INTO PRODUCT (brand, name, description, target_skin_type, category, image_url) VALUES [42001-240]
+2026-05-04 19:11:24.267428+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]'Avène', 'Thermal Water', 'Soothes and calms skin irritation.', 'Sensitive', 'Mist', 'https://m.media-amazon.com/images/I/61OVqzlRCFL.jpg'),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+('Avène', 'Thermal Water', 'Soothes and calms skin irritation.', 'Sensitive', 'Mist', 'https://m.media-amazon.com/images/I/61OVqzlRCFL.jpg'), [42001-240]
+2026-05-04 19:11:24.269444+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]'Bioderma', 'Sensibio H2O', 'Gentle micellar water cleansing.', 'Sensitive', 'Cleanser', 'https://m.media-amazon.com/images/I/51TLsfJf3rL.jpg')"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+('Bioderma', 'Sensibio H2O', 'Gentle micellar water cleansing.', 'Sensitive', 'Cleanser', 'https://m.media-amazon.com/images/I/51TLsfJf3rL.jpg') [42001-240]
+2026-05-04 19:11:24.272425+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO PRODUCT (brand, name, description, target_skin_type, category, image_url) VALUES[*]"; expected "ROW (, (, DEFAULT, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"; SQL statement:
+INSERT INTO PRODUCT (brand, name, description, target_skin_type, category, image_url) VALUES [42001-240]
+2026-05-04 19:11:24.273461+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]'The Ordinary', 'Niacinamide 10%', 'Balances sebum for clearer skin.', 'Combination', 'Serum', 'https://f.nooncdn.com/p/fb889ec50f784103a85817c4c97eadd1%7Cpzsku/Z98B89E90ACD02256C23AZ/45/1771237421/787b07ba-d575-4e2b-8041-08825577b4bc.jpg?width=original'),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+('The Ordinary', 'Niacinamide 10%', 'Balances sebum for clearer skin.', 'Combination', 'Serum', 'https://f.nooncdn.com/p/fb889ec50f784103a85817c4c97eadd1%7Cpzsku/Z98B89E90ACD02256C23AZ/45/1771237421/787b07ba-d575-4e2b-8041-08825577b4bc.jpg?width=original'), [42001-240]
+2026-05-04 19:11:24.275463+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]'Clinique', 'Moisture Surge', 'Auto-replenishing hydrator.', 'Combination', 'Moisturizer', 'https://gomyz.com/media/catalog/product/cache/ed71e6947664464904fc81a10ba92dd4/c/l/clinique_moisture_surge_72-hour_auto-replenishing_hydrator_50_ml_20714898144_1.png.mst.webp')"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+('Clinique', 'Moisture Surge', 'Auto-replenishing hydrator.', 'Combination', 'Moisturizer', 'https://gomyz.com/media/catalog/product/cache/ed71e6947664464904fc81a10ba92dd4/c/l/clinique_moisture_surge_72-hour_auto-replenishing_hydrator_50_ml_20714898144_1.png.mst.webp') [42001-240]
+2026-05-04 19:13:27.251613+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO PRODUCT (brand, name, description, target_skin_type, category, image_url) VALUES[*]"; expected "ROW (, (, DEFAULT, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"; SQL statement:
+INSERT INTO PRODUCT (brand, name, description, target_skin_type, category, image_url) VALUES [42001-240]
+2026-05-04 19:13:27.257612+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]'L''Oréal Paris', 'Revitalift Serum', 'Pure Hyaluronic Acid for intense hydration.', 'Oily', 'Serum', 'https://static.beautytocare.com/media/catalog/product/l/-/l-oreal-paris-revitalift-filler-hyaluronic-eye-serum-30ml.jpg'),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+('L''Oréal Paris', 'Revitalift Serum', 'Pure Hyaluronic Acid for intense hydration.', 'Oily', 'Serum', 'https://static.beautytocare.com/media/catalog/product/l/-/l-oreal-paris-revitalift-filler-hyaluronic-eye-serum-30ml.jpg'), [42001-240]
+2026-05-04 19:13:27.260632+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]'La Roche-Posay', 'Effaclar Mat', 'Moisturizer that targets oil and reduces pores.', 'Oily', 'Moisturizer', 'https://www.basharacare.com/media/catalog/product/cache/3cc098e4b27cb217d827d288e7852250/b/c/bc-lrp-effacalar-mat-tube.jpg'),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+('La Roche-Posay', 'Effaclar Mat', 'Moisturizer that targets oil and reduces pores.', 'Oily', 'Moisturizer', 'https://www.basharacare.com/media/catalog/product/cache/3cc098e4b27cb217d827d288e7852250/b/c/bc-lrp-effacalar-mat-tube.jpg'), [42001-240]
+2026-05-04 19:13:27.261611+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]'CeraVe', 'Foaming Cleanser', 'Gently removes excess oil.', 'Oily', 'Cleanser', 'https://i5.walmartimages.com/seo/CeraVe-Foaming-Facial-Cleanser-Daily-Face-Wash-for-Normal-to-Oily-Skin-12-fl-oz_a74a3654-07aa-47c6-9377-117b3a532e6e.fc02eb8e8fc31ee17f086caa896a8d87.jpeg')"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+('CeraVe', 'Foaming Cleanser', 'Gently removes excess oil.', 'Oily', 'Cleanser', 'https://i5.walmartimages.com/seo/CeraVe-Foaming-Facial-Cleanser-Daily-Face-Wash-for-Normal-to-Oily-Skin-12-fl-oz_a74a3654-07aa-47c6-9377-117b3a532e6e.fc02eb8e8fc31ee17f086caa896a8d87.jpeg') [42001-240]
+2026-05-04 19:13:27.262612+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO PRODUCT (brand, name, description, target_skin_type, category, image_url) VALUES[*]"; expected "ROW (, (, DEFAULT, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"; SQL statement:
+INSERT INTO PRODUCT (brand, name, description, target_skin_type, category, image_url) VALUES [42001-240]
+2026-05-04 19:13:27.263626+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]'Kiehl''s', 'Ultra Facial Cream', '24-hour hydration with squalane.', 'Dry', 'Moisturizer', 'https://www.ubuy.com.eg/productimg/?image=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvMzEybU5ZQjFzd0wuX1NTNDAwXy5qcGc.jpg')"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+('Kiehl''s', 'Ultra Facial Cream', '24-hour hydration with squalane.', 'Dry', 'Moisturizer', 'https://www.ubuy.com.eg/productimg/?image=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvMzEybU5ZQjFzd0wuX1NTNDAwXy5qcGc.jpg') [42001-240]
+2026-05-04 19:13:27.264612+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO PRODUCT (brand, name, description, target_skin_type, category, image_url) VALUES[*]"; expected "ROW (, (, DEFAULT, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"; SQL statement:
+INSERT INTO PRODUCT (brand, name, description, target_skin_type, category, image_url) VALUES [42001-240]
+2026-05-04 19:13:27.265613+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]'Avène', 'Thermal Water', 'Soothes and calms skin irritation.', 'Sensitive', 'Mist', 'https://m.media-amazon.com/images/I/61OVqzlRCFL.jpg'),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+('Avène', 'Thermal Water', 'Soothes and calms skin irritation.', 'Sensitive', 'Mist', 'https://m.media-amazon.com/images/I/61OVqzlRCFL.jpg'), [42001-240]
+2026-05-04 19:13:27.266612+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]'Bioderma', 'Sensibio H2O', 'Gentle micellar water cleansing.', 'Sensitive', 'Cleanser', 'https://m.media-amazon.com/images/I/51TLsfJf3rL.jpg')"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+('Bioderma', 'Sensibio H2O', 'Gentle micellar water cleansing.', 'Sensitive', 'Cleanser', 'https://m.media-amazon.com/images/I/51TLsfJf3rL.jpg') [42001-240]
+2026-05-04 19:13:27.266612+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO PRODUCT (brand, name, description, target_skin_type, category, image_url) VALUES[*]"; expected "ROW (, (, DEFAULT, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"; SQL statement:
+INSERT INTO PRODUCT (brand, name, description, target_skin_type, category, image_url) VALUES [42001-240]
+2026-05-04 19:13:27.268612+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]'The Ordinary', 'Niacinamide 10%', 'Balances sebum for clearer skin.', 'Combination', 'Serum', 'https://f.nooncdn.com/p/fb889ec50f784103a85817c4c97eadd1%7Cpzsku/Z98B89E90ACD02256C23AZ/45/1771237421/787b07ba-d575-4e2b-8041-08825577b4bc.jpg?width=original'),"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+('The Ordinary', 'Niacinamide 10%', 'Balances sebum for clearer skin.', 'Combination', 'Serum', 'https://f.nooncdn.com/p/fb889ec50f784103a85817c4c97eadd1%7Cpzsku/Z98B89E90ACD02256C23AZ/45/1771237421/787b07ba-d575-4e2b-8041-08825577b4bc.jpg?width=original'), [42001-240]
+2026-05-04 19:13:27.268612+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "([*]'Clinique', 'Moisture Surge', 'Auto-replenishing hydrator.', 'Combination', 'Moisturizer', 'https://gomyz.com/media/catalog/product/cache/ed71e6947664464904fc81a10ba92dd4/c/l/clinique_moisture_surge_72-hour_auto-replenishing_hydrator_50_ml_20714898144_1.png.mst.webp')"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+('Clinique', 'Moisture Surge', 'Auto-replenishing hydrator.', 'Combination', 'Moisturizer', 'https://gomyz.com/media/catalog/product/cache/ed71e6947664464904fc81a10ba92dd4/c/l/clinique_moisture_surge_72-hour_auto-replenishing_hydrator_50_ml_20714898144_1.png.mst.webp') [42001-240]

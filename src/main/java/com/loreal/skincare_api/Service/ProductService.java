@@ -16,9 +16,6 @@ public class ProductService {
         this.repo = repo;
     }
 
-    public List<Product> getSkincareApi() {
-        return repo.findAll();
-    }
 
     public Product getApibyId(Long id) throws Throwable {
         return repo.findById(id)

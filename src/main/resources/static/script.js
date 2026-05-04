@@ -1,3 +1,6 @@
+// At the top of your file
+let productCache = [];
+
 async function fetchProducts() {
     const skinType = document.getElementById('skinTypeSelector').value;
     const grid = document.getElementById('productGrid');
@@ -7,37 +10,36 @@ async function fetchProducts() {
     try {
         const response = await fetch(`http://localhost:8080/search?type=${skinType}`);
         const products = await response.json();
+        productCache = products; // ← store them here
 
         if (products.length === 0) {
             grid.innerHTML = "<p class='subtitle'>No products found for this skin type.</p>";
             return;
         }
 
-        grid.innerHTML = products.map(product => {
-            const productString = encodeURIComponent(JSON.stringify(product));
-            return `
-                <div class="product-card">
-                    <img class="product-image" src="${product.imageUrl || 'https://via.placeholder.com/400'}" alt="Product">
-                    <div class="card-content">
-                        <p class="brand">${product.brand}</p>
-                        <h2 class="product-name">${product.name}</h2>
-                        <p class="category">${product.Category || 'Treatment'}</p>
-                        <p class="description">${product.description}</p>
-                    </div>
-                    <div class="product-footer">
-                        <span class="tag" style="border: 1px solid #eee; padding: 5px 10px; font-size: 0.7rem;">${product.targetSkinType}</span>
-                        <button onclick="openModal('${productString}')" style="background:none; border:none; color:var(--gold); cursor:pointer; font-weight:600;">EXPLORE →</button>
-                    </div>
+        grid.innerHTML = products.map((product, index) => `
+            <div class="product-card">
+                <img class="product-image" src="${product.imageUrl || 'https://via.placeholder.com/400'}" alt="Product">
+                <div class="card-content">
+                    <p class="brand">${product.brand}</p>
+                    <h2 class="product-name">${product.name}</h2>
+                    <p class="category">${product.Category || 'Treatment'}</p>
+                    <p class="description">${product.description}</p>
                 </div>
-            `;
-        }).join('');
+                <div class="product-footer">
+                    <span class="tag" style="border: 1px solid #eee; padding: 5px 10px; font-size: 0.7rem;">${product.targetSkinType}</span>
+                    <button onclick="openModal(${index})" style="background:none; border:none; color:var(--gold); cursor:pointer; font-weight:600;">EXPLORE →</button>
+                </div>
+            </div>
+        `).join('');
+
     } catch (error) {
         grid.innerHTML = "<p>Error connecting to server.</p>";
     }
 }
 
-function openModal(data) {
-    const product = JSON.parse(decodeURIComponent(data));
+function openModal(index) {
+    const product = productCache[index]; // ← look up by index, no encoding needed
     const modal = document.getElementById('productModal');
     const body = document.getElementById('modalBody');
 
@@ -53,6 +55,3 @@ function openModal(data) {
     `;
     modal.style.display = "block";
 }
-
-function closeModal() { document.getElementById('productModal').style.display = "none"; }
-window.onclick = function(event) { if (event.target == document.getElementById('productModal')) closeModal(); }
